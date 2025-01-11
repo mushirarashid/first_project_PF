@@ -263,7 +263,7 @@
   /* ============ recent-news_section end============ */
   /* ============ donate_section start============ */
  #donate_part{
-    padding-block-start: 80px;
+    padding-block: 80px;
     display: flex;
     justify-content: center;
  }
@@ -321,6 +321,7 @@
     background: white;
     border: 0;
     border-bottom: 1px solid rgba(14, 14, 14, .15);
+    text-align: center;
  }
  #donate_part input::placeholder{
     color: rgba(14, 14, 14, .3);
@@ -330,7 +331,56 @@
     padding: 17px 34px;
     margin: 0 auto;
  }
-
-
-
   /* ============ donate_section end============ */
+  /* ============ newsletter_part start============ */
+ #newsletter_part .letter_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 395px;
+    border-radius: 16px;
+    background: #C6E4D6;
+    margin-block-end: 80px;
+ }
+ #newsletter_part .letter_box h3{
+    font-size: 40px;
+    margin-block-end: 16px;
+ }
+ #newsletter_part .letter_box p{
+    width: 622px;
+    text-align: center;
+    margin-block-end: 24px;
+ }
+ #newsletter_part .letter_box .input{
+    position: relative;
+    margin-block-end: 24px;
+ }
+ #newsletter_part .letter_box .input input{
+    width: 750px;
+    height: 56px;
+    border-radius: 16px;
+    border: 0;
+    margin-block-end: 24px;
+    /* text-align: center; */
+    padding-inline-start: 40px;
+ }
+ #newsletter_part .letter_box .input input::placeholder{
+    color: rgba(14, 14, 14, .3);
+ }
+ #newsletter_part .letter_box .input button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 19px 34px;
+    border-radius: 0 8px 8px 0;
+ }
+ #newsletter_part .letter_box .input button:hover{
+    margin-top: 0;
+ }
+
+
+
+
+  /* ============ newsletter_part end============ */
