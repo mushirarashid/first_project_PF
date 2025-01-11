@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
   }
+  body{
+    background: #eae9e9;
+  }
   ul {
     list-style: none;
   }
@@ -207,7 +210,127 @@
     border: 1px solid rgba(255, 194, 57, .7);
  }
 
-
-
-
   /* ============ vision_section end============ */
+  /* ============ recent-news_section start============ */
+
+  #recent-news{
+    padding-block-start: 80px;
+  }
+  #recent-news h3{
+    font-size: 40px;
+    margin-block-end: 24px;
+  }
+  #recent-news .news_box{
+    margin-block-start: 32px;
+    scroll-margin-block-end: 24px;
+    display: flex;
+    column-gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background: white;
+
+  }
+  #recent-news .news_box .image{
+    width: 408px;
+    border-radius: 24px;
+  }
+  #recent-news .news_box .image img{
+    width: 408px;
+    border-radius: 24px;
+  }
+  #recent-news .news_box .details h4{
+    color: rgba(14, 14, 14, .8);
+    margin-block-end: 12px;
+    margin-block-start: 8px;
+
+  }
+  #recent-news .news_box .details img{
+    margin-block-end: 12px;
+  }
+  #recent-news .news_box .details .time{
+    display: flex;
+    column-gap: 12px;
+    margin-block-end: 12px;
+  }
+  #recent-news .news_box .details .full_detail{
+    width: 744px;
+    margin-block-end: 32px;
+  }
+  #recent-news .news_box .details button{
+    padding: 13px 26px;
+    margin-block-start: 20px;
+  }
+  /* ============ recent-news_section end============ */
+  /* ============ donate_section start============ */
+ #donate_part{
+    padding-block-start: 80px;
+    display: flex;
+    justify-content: center;
+ }
+ #donate_part .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ #donate_part h3{
+    font-size: 40px;
+    text-align: center;
+    margin-block-end: 24px;
+ }
+ #donate_part p{
+    text-align: center;
+    width: 1104px;
+    margin: 0 auto;
+ }
+ #donate_part .payment_box{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-block: 32px;
+ }
+ #donate_part .payment_box .amount{
+    width: 240px;
+    background: white;
+    border-radius: 16px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(14, 14, 14, .15);
+    transition: all linear .3s;
+ }
+ #donate_part .payment_box .second{
+    background: #C6E4D6;
+ }
+ #donate_part .payment_box .amount:hover{
+    background: #006A50;
+    color: #ffffff;
+ }
+ #donate_part .payment_box .amount h3{
+    margin-block-end: 0;
+    color: rgba(14, 14, 14, .8);
+    transition: all linear .3s;
+}
+#donate_part .payment_box .amount:hover h3{
+       color: #ffffff;
+}
+ #donate_part input{
+    width: 1132px;
+    height: 64px;
+    margin-block-end: 32px;
+    background: white;
+    border: 0;
+    border-bottom: 1px solid rgba(14, 14, 14, .15);
+ }
+ #donate_part input::placeholder{
+    color: rgba(14, 14, 14, .3);
+    text-align: center;
+ }
+ #donate_part button{
+    padding: 17px 34px;
+    margin: 0 auto;
+ }
+
+
+
+  /* ============ donate_section end============ */
