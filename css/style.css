@@ -1,0 +1,213 @@
+/* ===========common css=============== */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .main_text{
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+    color: #0E0E0E;
+
+  }
+
+  .btn{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    background: #006A50;
+    color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    transition: all linear .3s;
+  }
+  .btn:hover{
+    color: #006A50;
+    background: #ffffff;
+    margin-top: -2px;
+  }
+  p{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, .7);
+    line-height: 24px;
+  }
+
+  .inner_tittel{
+    font-family: "Fira Sans", serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+    margin-block-end: 12px;
+  }
+  /* ===========common css=============== */
+  /* ============ nav start============ */
+  nav .navbar{
+    background: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 31px;
+  }
+  nav .navbar h3{
+    font-size: 32px;
+    color: #0E0E0E;
+  }
+  nav .navbar button{
+    font-weight: 600;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color: #006A50; 
+    transition: all linear .2s;
+  }
+  nav .navbar button:hover{
+    background: #006A50;
+    color: #ffffff;
+    margin-top: -3px;
+  }
+  /* ============ nav end============ */
+  /* ============ hero_section start============ */
+  #hero_part{
+    padding-block-start: 20px;
+  }
+  #hero_part .box{
+    padding: 80px 60px;
+    background: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 24px;
+  }
+  #hero_part .box .left p{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, .5);
+    margin-block-end: 16px;
+  }
+  #hero_part .box .left h1{
+    font-size: 56px;
+    width: 600px;
+    margin-block-end: 24px;
+  }
+  #hero_part .box .left button{
+    padding: 17px 34px;
+  }
+  /* ============ hero_section end============ */
+  /* ============ vision_section start============ */
+ #vision_part{
+    padding-block-start: 80px;
+ }
+ #vision_part h3{
+    font-size: 40px;
+    margin-block-end: 24px;
+ }
+ #vision_part .vision_box{
+    margin-block-start: 32px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+ }
+ #vision_part .vision_box .card{
+    background: rgba(84, 144, 245, .2);
+    border-radius: 16px;
+    padding: 32px;
+    width: 411px;
+ }
+ #vision_part .vision_box .card img{
+    margin-block-end: 24px;
+ }
+ #vision_part .vision_box .card p{
+    width: 347px;
+    margin-block-end: 24px;
+ }
+ #vision_part .vision_box .card button{
+    background: #5490F5;
+    padding: 11px 20px;
+    color: #ffffff;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #5490F5;
+    transition: all linear .2s;
+
+ }
+ #vision_part .vision_box .card button:hover{
+    background: #ffffff;
+    color: rgba(84, 144, 245, .7);
+    border: 1px solid rgba(84, 144, 245, .7);
+ }
+ #vision_part .vision_box .two_card{
+    background: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+    width: 411px;
+ }
+ #vision_part .vision_box .two_card img{
+    margin-block-end: 24px;
+ }
+ #vision_part .vision_box .two_card p{
+    width: 347px;
+    margin-block-end: 24px;
+ }
+ #vision_part .vision_box .two_card button{
+    background: #09A15C;
+    padding: 11px 20px;
+    color: #ffffff;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #09A15C;
+    transition: all linear .2s;
+ }
+ #vision_part .vision_box .two_card button:hover{
+    background: #ffffff;
+    color: rgba(9, 161, 92, .7);
+    border: 1px solid rgba(9, 161, 92, .7);
+ }
+ #vision_part .vision_box .three_card{
+    background: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+    width: 411px;
+ }
+ #vision_part .vision_box .three_card img{
+    margin-block-end: 24px;
+ }
+ #vision_part .vision_box .three_card p{
+    width: 347px;
+    margin-block-end: 24px;
+ }
+ #vision_part .vision_box .three_card button{
+    background: #FFC239;
+    padding: 11px 20px;
+    color: #ffffff;
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #FFC239;
+    transition: all linear .2s;
+ }
+ #vision_part .vision_box .three_card button:hover{
+    background: #ffffff;
+    color: rgba(255, 194, 57, .7);
+    border: 1px solid rgba(255, 194, 57, .7);
+ }
+
+
+
+
+  /* ============ vision_section end============ */
