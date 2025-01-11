@@ -165,7 +165,7 @@
  }
  #vision_part .vision_box .two_card p{
     width: 347px;
-    margin-block-end: 24px;
+    margin-block-end: 48px;
  }
  #vision_part .vision_box .two_card button{
     background: #09A15C;
@@ -224,7 +224,13 @@
     border-radius: 16px;
     background: white;
     padding: 48px 24px;
+    transition: all linear .3s;
  }
+ #quote_part .quote_box:hover{
+    background: #C6E4D6;
+    border-radius: 0;
+ }
+
  #quote_part .quote_box h4{
     font-family: "Fira Sans", serif;
     font-weight: 600;
@@ -238,10 +244,6 @@
     top: 25px;
     z-index: 1;
  }
-
-
-
-
   /* ============ quote_section end============ */
   /* ============ recent-news_section start============ */
 
@@ -258,9 +260,13 @@
     display: flex;
     column-gap: 32px;
     padding: 48px;
+    border: 1px solid white;
     border-radius: 24px;
     background: white;
-
+    transition: all linear .2s;
+  }
+  #recent-news .news_box:hover{
+    border: 1px solid rgba(14, 14, 14, .3);
   }
   #recent-news .news_box .image{
     width: 408px;
@@ -395,7 +401,6 @@
     border-radius: 16px;
     border: 0;
     margin-block-end: 24px;
-    /* text-align: center; */
     padding-inline-start: 40px;
  }
  #newsletter_part .letter_box .input input::placeholder{
@@ -411,8 +416,5 @@
  #newsletter_part .letter_box .input button:hover{
     margin-top: 0;
  }
-
-
-
 
   /* ============ newsletter_part end============ */
