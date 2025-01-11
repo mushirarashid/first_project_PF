@@ -54,10 +54,13 @@
     color: #0E0E0E;
     margin-block-end: 12px;
   }
+
+  textarea:focus, input:focus{
+    outline: none;
+}
   /* ===========common css=============== */
   /* ============ nav start============ */
   nav .navbar{
-    background: palevioletred;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -211,6 +214,35 @@
  }
 
   /* ============ vision_section end============ */
+  /* ============ quote_section start============ */
+ #quote_part{
+    padding-block-start: 32px;
+}
+#quote_part .quote_box{
+    position: relative;
+    border: 1px solid rgba(13, 13, 13, .15);
+    border-radius: 16px;
+    background: white;
+    padding: 48px 24px;
+ }
+ #quote_part .quote_box h4{
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-block: 12px 4px;
+    color: rgba(14, 14, 14, .8);
+ }
+ #quote_part .quote_box .koma{
+    position: absolute;
+    left: 24px;
+    top: 25px;
+    z-index: 1;
+ }
+
+
+
+
+  /* ============ quote_section end============ */
   /* ============ recent-news_section start============ */
 
   #recent-news{
